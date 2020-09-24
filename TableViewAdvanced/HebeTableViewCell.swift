@@ -37,6 +37,11 @@ class HebeTableViewCell: UITableViewCell {
         }else if hebe is HebeMovie{
             nameLabel.text = (hebe as! HebeMovie).name
             photoImageView.image = UIImage(named: (hebe as! HebeMovie).imageName)
+            if (hebe as! HebeMovie).favority == true{
+                heart.setTitle("💚", for: .normal)
+            }else{
+                heart.setTitle("🖤", for: .normal)
+            }
         }
     }
 }
