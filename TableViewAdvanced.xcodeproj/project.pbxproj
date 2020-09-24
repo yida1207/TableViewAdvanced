@@ -13,10 +13,14 @@
 		155F0D3B251A1547004C39A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155F0D39251A1547004C39A9 /* Main.storyboard */; };
 		155F0D3D251A154D004C39A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 155F0D3C251A154D004C39A9 /* Assets.xcassets */; };
 		155F0D40251A154D004C39A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155F0D3E251A154D004C39A9 /* LaunchScreen.storyboard */; };
+		155F0D48251A16B8004C39A9 /* HebeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155F0D47251A16B8004C39A9 /* HebeTableViewController.swift */; };
+		155F0D4A251A16D0004C39A9 /* Hebe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155F0D49251A16D0004C39A9 /* Hebe.swift */; };
+		155F0D4C251A38CA004C39A9 /* HebeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155F0D4B251A38CA004C39A9 /* HebeDetailViewController.swift */; };
+		15E65C9C251B1C03000749D8 /* HebeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E65C9B251B1C03000749D8 /* HebeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		155F0D30251A1547004C39A9 /* TableViewBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		155F0D30251A1547004C39A9 /* TableViewAdvanced.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewAdvanced.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		155F0D33251A1547004C39A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		155F0D35251A1547004C39A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		155F0D37251A1547004C39A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +28,10 @@
 		155F0D3C251A154D004C39A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		155F0D3F251A154D004C39A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		155F0D41251A154D004C39A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		155F0D47251A16B8004C39A9 /* HebeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HebeTableViewController.swift; sourceTree = "<group>"; };
+		155F0D49251A16D0004C39A9 /* Hebe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hebe.swift; sourceTree = "<group>"; };
+		155F0D4B251A38CA004C39A9 /* HebeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HebeDetailViewController.swift; sourceTree = "<group>"; };
+		15E65C9B251B1C03000749D8 /* HebeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HebeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +48,7 @@
 		155F0D27251A1547004C39A9 = {
 			isa = PBXGroup;
 			children = (
-				155F0D32251A1547004C39A9 /* TableViewBasic */,
+				155F0D32251A1547004C39A9 /* TableViewAdvanced */,
 				155F0D31251A1547004C39A9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +56,35 @@
 		155F0D31251A1547004C39A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				155F0D30251A1547004C39A9 /* TableViewBasic.app */,
+				155F0D30251A1547004C39A9 /* TableViewAdvanced.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		155F0D32251A1547004C39A9 /* TableViewBasic */ = {
+		155F0D32251A1547004C39A9 /* TableViewAdvanced */ = {
 			isa = PBXGroup;
 			children = (
 				155F0D33251A1547004C39A9 /* AppDelegate.swift */,
 				155F0D35251A1547004C39A9 /* SceneDelegate.swift */,
 				155F0D37251A1547004C39A9 /* ViewController.swift */,
 				155F0D39251A1547004C39A9 /* Main.storyboard */,
+				155F0D47251A16B8004C39A9 /* HebeTableViewController.swift */,
+				155F0D4B251A38CA004C39A9 /* HebeDetailViewController.swift */,
+				15E65C9B251B1C03000749D8 /* HebeTableViewCell.swift */,
+				155F0D49251A16D0004C39A9 /* Hebe.swift */,
 				155F0D3C251A154D004C39A9 /* Assets.xcassets */,
 				155F0D3E251A154D004C39A9 /* LaunchScreen.storyboard */,
 				155F0D41251A154D004C39A9 /* Info.plist */,
 			);
-			path = TableViewBasic;
+			path = TableViewAdvanced;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		155F0D2F251A1547004C39A9 /* TableViewBasic */ = {
+		155F0D2F251A1547004C39A9 /* TableViewAdvanced */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 155F0D44251A154D004C39A9 /* Build configuration list for PBXNativeTarget "TableViewBasic" */;
+			buildConfigurationList = 155F0D44251A154D004C39A9 /* Build configuration list for PBXNativeTarget "TableViewAdvanced" */;
 			buildPhases = (
 				155F0D2C251A1547004C39A9 /* Sources */,
 				155F0D2D251A1547004C39A9 /* Frameworks */,
@@ -82,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = TableViewBasic;
+			name = TableViewAdvanced;
 			productName = TableViewBasic;
-			productReference = 155F0D30251A1547004C39A9 /* TableViewBasic.app */;
+			productReference = 155F0D30251A1547004C39A9 /* TableViewAdvanced.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 155F0D2B251A1547004C39A9 /* Build configuration list for PBXProject "TableViewBasic" */;
+			buildConfigurationList = 155F0D2B251A1547004C39A9 /* Build configuration list for PBXProject "TableViewAdvanced" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				155F0D2F251A1547004C39A9 /* TableViewBasic */,
+				155F0D2F251A1547004C39A9 /* TableViewAdvanced */,
 			);
 		};
 /* End PBXProject section */
@@ -139,8 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				155F0D38251A1547004C39A9 /* ViewController.swift in Sources */,
+				155F0D4A251A16D0004C39A9 /* Hebe.swift in Sources */,
 				155F0D34251A1547004C39A9 /* AppDelegate.swift in Sources */,
 				155F0D36251A1547004C39A9 /* SceneDelegate.swift in Sources */,
+				155F0D48251A16B8004C39A9 /* HebeTableViewController.swift in Sources */,
+				155F0D4C251A38CA004C39A9 /* HebeDetailViewController.swift in Sources */,
+				15E65C9C251B1C03000749D8 /* HebeTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TableViewBasic/Info.plist;
+				INFOPLIST_FILE = TableViewAdvanced/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +318,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TableViewBasic/Info.plist;
+				INFOPLIST_FILE = TableViewAdvanced/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		155F0D2B251A1547004C39A9 /* Build configuration list for PBXProject "TableViewBasic" */ = {
+		155F0D2B251A1547004C39A9 /* Build configuration list for PBXProject "TableViewAdvanced" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				155F0D42251A154D004C39A9 /* Debug */,
@@ -326,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		155F0D44251A154D004C39A9 /* Build configuration list for PBXNativeTarget "TableViewBasic" */ = {
+		155F0D44251A154D004C39A9 /* Build configuration list for PBXNativeTarget "TableViewAdvanced" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				155F0D45251A154D004C39A9 /* Debug */,

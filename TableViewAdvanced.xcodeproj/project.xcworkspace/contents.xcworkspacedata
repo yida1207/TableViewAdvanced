@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TableViewBasic.xcodeproj">
+      location = "self:/Users/yida/iPhone/Swift program/TableViewAdvanced/TableViewAdvanced.xcodeproj">
    </FileRef>
 </Workspace>
